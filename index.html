@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@400;700&family=Sriracha&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Toggery Store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#novidades" class="nav-link">
+                            <i class="bi bi-magic me-1"></i>
+                            Novidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-currency-dollar me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#departamentos" class="nav-link">
+                            <i class="bi bi-layout-wtf me-1"></i>
+                            Departamentos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#entre-em-contato" class="nav-link">
+                            <i class="bi bi-chat-text me-1"></i>
+                            Entre em contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carrossel" id="carrossel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2900">
+                        <img src="./images/loja/cabide.avif" alt="cabide de roupas" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2900">
+                        <img src="./images/loja/opcoes.avif" alt="prateleira de opções" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2900">
+                        <img src="./images/loja/variedade.avif" alt="variedade de itens" class="d-block w-100" />
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrossel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/loja/roupas.avif" class="d-block w-100 rounded" alt="" />
+                        </div>
+
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>Somos uma loja que oferece o melhor para os nossos clientes, onde podemos atender
+                                todas as expectativas sobre a moda sempre de olho nas tendências e lançamentos.</p>
+                            <p>Nossa loja oferece o que há de mais moderno e atual em todas as categorias de produtos.
+                            </p>
+                            <p>Desde o princípio, nossa preocupação é oferecer os melhores produtos aliado a um ótimo
+                                atendimento a você cliente, que é a pessoa mais importante para nós.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7 mt-5 frases">
+
+                            <p>
+                                <i class="bi bi-stars"></i>
+                                Não guarde rancor, guarde dinheiro para renovar seu visual com as nossas coleções.
+                                <i class="bi bi-stars"></i>
+                            </p>
+
+                            <p>
+                                <i class="bi bi-caret-right-fill me-1"></i>
+                                Não deixe para amanhã a roupa que você pode usar hoje.
+                                <i class="bi bi-caret-left-fill me-1"></i>
+                            </p>
+
+                            <p>
+                                <i class="bi bi-emoji-sunglasses-fill"></i>
+                                Seu guarda-roupa que lute para liberar espaço.
+                                <i class="bi bi-emoji-laughing-fill"></i>
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/loja/cabide 4.jpg" class="d-block w-100 rounded" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="novidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fique por dentro <span class="text-colored">dos últimos
+                            lançamentos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <img src="./images/novidades/camuflagem.jpeg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-tree"></i>
+                            Camuflagem
+                        </h3>
+                        <p>
+                            Com essa peça que parece um cachorro molhado precisando de um banho, você pode se perder na
+                            natureza, sem se preocupar com predadores.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/novidades/uniforme.jpeg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-shield"></i>
+                            Traje militar
+                        </h3>
+                        <p>
+                            Desfile toda sua autoridade com esse traje de oficial superior, com grande estilo e
+                            sofisticação.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Aproveite as <span class="text-colored">promoções
+                            imperdíveis</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <img src="./images/promocoes/black.jpeg" class="d-block w-100 rounded mb-2">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-handbag-fill"></i>
+                            Black friday
+                        </h3>
+                        <p>
+                            Que tal aproveitar essa Black Friday e adiantar as compras dos presentes de Natal? Produtos
+                            com até 25% de desconto! Natal antecipado é na Toggery.
+                        </p>
+                        <img src="./images/promocoes/black2.jpeg" class="d-block w-100 rounded mb-2">
+                        <p>
+                            Escolheu seu look? Agora não se esqueça de conferir nossos acessórios, eles são
+                            indispensáveis para compor aquele look incrível!.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-duffle"></i>
+                            Liquidação
+                        </h3>
+                        <p>
+                            Você, que é louca por roupas, para tudo que está fazendo! Sabia que só aqui na
+                            <span class="text-colored">Toggery</span> você pode ganhar R$ 500,00 em compras? Sim,
+                            temos um cartão fidelidade em que a cada R$50,00 em compras você ganha um selo para colocar
+                            em seu cartão. E ao preencher seu cartão
+                            com 10 selos, você ganha R$ 500,00 em compras na loja. Não é sorteio. Preencheu, ganhou!
+                            Peça já seu! Toggery. Vista-se bem, gastando pouco.
+                        </p>
+                        <img src="./images/promocoes/oferta.jpeg" class="d-block w-100 rounded mb-2">
+                        <p>
+                            Quer saber tudo o que acontece na nossa loja em primeira mão? Então é só se cadastrar para
+                            receber a nossa newsletter. Toda semana novidades fresquinhas para você! Fale com um de
+                            nossos vendedores.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+
+                        <img src="./images/promocoes/oferta2.jpeg" class="d-block w-100 rounded mb-2">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="departamentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center  mb-5">Nossos <span class="text-colored">Departamentos</span>
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-departamentos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#departamento-masculino"
+                                class="fw-bold text-start nav-link text-colored active">Masculino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#departamento-feminino"
+                                class="fw-bold text-start nav-link text-colored">Feminino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#departamento-infantil"
+                                class="fw-bold text-start nav-link text-colored">Infantil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#departamento-acessorios"
+                                class="fw-bold text-start nav-link text-colored">Acessórios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="departamento-masculino">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/masculino/calcas.webp"
+                                            alt="calças masculinas" />
+                                        <h5 class="text-colored fw-bold mt-2">Calças</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/masculino/camisas.webp"
+                                            alt="camisas masculinas" />
+                                        <h5 class="text-colored fw-bold mt-2">Camisas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/masculino/ternos.jpeg"
+                                            alt="ternos" />
+                                        <h5 class="text-colored fw-bold mt-2">Ternos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/masculino/agasalho.webp"
+                                            alt="agasalhos" />
+                                        <h5 class="text-colored fw-bold mt-2">Agasalhos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/masculino/bermudas.jpeg"
+                                            alt="bermudas" />
+                                        <h5 class="text-colored fw-bold mt-2">Bermudas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/masculino/camisetas.jpeg"
+                                            alt="camisetas" />
+                                        <h5 class="text-colored fw-bold mt-2">Camisetas</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="departamento-feminino">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/feminino/vestidos.webp"
+                                            alt="vestidos" />
+                                        <h5 class="text-colored fw-bold mt-2">Vestidos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/feminino/blusas.jpeg"
+                                            alt="blusas" />
+                                        <h5 class="text-colored fw-bold mt-2">Blusas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/feminino/calcas.jpeg"
+                                            alt="calças" />
+                                        <h5 class="text-colored fw-bold mt-2">Calças</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/feminino/moletons.jpeg"
+                                            alt="moletons" />
+                                        <h5 class="text-colored fw-bold mt-2">Moletons</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/feminino/agasalhos.webp"
+                                            alt="agasalhos" />
+                                        <h5 class="text-colored fw-bold mt-2">Agasalhos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/feminino/verao.jpeg"
+                                            alt="verao" />
+                                        <h5 class="text-colored fw-bold mt-2">Verão</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="departamento-infantil">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/infantil/meninos.webp"
+                                            alt="meninos" />
+                                        <h5 class="text-colored fw-bold mt-2">Meninos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/infantil/meninas.webp"
+                                            alt="meninas" />
+                                        <h5 class="text-colored fw-bold mt-2">Meninas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/infantil/bebes.jpeg"
+                                            alt="bebes" />
+                                        <h5 class="text-colored fw-bold mt-2">Bebês</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/infantil/social.jpeg"
+                                            alt="social" />
+                                        <h5 class="text-colored fw-bold mt-2">Social</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/infantil/inverno.webp"
+                                            alt="inverno" />
+                                        <h5 class="text-colored fw-bold mt-2">Inverno</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/infantil/verao.jpeg"
+                                            alt="verao" />
+                                        <h5 class="text-colored fw-bold mt-2">Verão</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="departamento-acessorios">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/acessorios/bolsas.jpeg"
+                                            alt="bolsas" />
+                                        <h5 class="text-colored fw-bold mt-2">Bolsas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/acessorios/gravatas.jpeg"
+                                            alt="gravatas" />
+                                        <h5 class="text-colored fw-bold mt-2">Gravatas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/acessorios/cintos.jpeg"
+                                            alt="cintos" />
+                                        <h5 class="text-colored fw-bold mt-2">Cintos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/acessorios/aneis.webp"
+                                            alt="aneis" />
+                                        <h5 class="text-colored fw-bold mt-2">Aneis</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/acessorios/brincos.webp"
+                                            alt="brincos" />
+                                        <h5 class="text-colored fw-bold mt-2">Brincos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/departamentos/acessorios/pulserias.webp"
+                                            alt="pulseiras" />
+                                        <h5 class="text-colored fw-bold mt-2">Pulseiras</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="entre-em-contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Entre <Span class="text-colored">em contato</Span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control"  required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem
+                                    (opcional)</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-twitter text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-google text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-pinterest text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-stack-overflow text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-youtube text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-github text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-dribbble text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Alameda dos Manoteiros, nº 999, Bairro Bregalhice, Brejo bonito - MG
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>2023 &copy Toggery - Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

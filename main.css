@@ -1,0 +1,92 @@
+body {
+    font-family: 'Laila', serif;
+}
+
+.navbar {
+    background-color: #df83e7;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #df83e7;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-departamentos .nav-link.active:hover {
+    color: #ffffff;
+}
+
+
+.text-colored {
+    color: #df83e7;
+}
+.navbar-toggler,
+#sobre-a-loja,
+#promocoes {
+    background-color: #f5caf3;
+}
+
+.section-title {
+    font-family: 'Sriracha', cursive;
+    font-size:xx-large;
+}
+
+.frases {
+    text-align: center;
+    font-size: small;
+}
+
+.nav-departamentos .nav-link.active,
+#entre-em-contato button {
+    background-color: #df83e7;
+    color: #fff;
+}
+
+.nav-departamentos .nav-link:hover {
+    color: #df83e7;
+} 
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#mensagem {
+    resize: none;
+}
+
+footer {    
+    color: #fff;
+    background-color: #df83e7;    
+    padding-top: 16px;
+    justify-content: center;    
+    display: flex;
+}
+
+@media (min-width: 651px) and (max-width: 940px) {
+    .carousel-item {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .carousel-item img {
+        height: 380px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .carousel-item {
+        margin: auto;
+    }
+
+    .carousel-item img {
+        height: 280px;
+    }
+}
